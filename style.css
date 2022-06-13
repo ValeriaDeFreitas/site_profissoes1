@@ -1,0 +1,135 @@
+body {
+    background-image: url('img1.png') ;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: 0%;  
+}
+.wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/*.topo{
+    background: url("img3.jpg");
+    position: relative;
+    margin: 60px 60px 80px 60px;
+    width: 80%;
+    height: 40%;
+}*/
+
+.menu{
+    background-color:#2F33A3;;
+    width: 990px;
+    height: 50px;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 300px;    
+    
+}
+.conteudo{
+    background-color: black;
+    width: 990px;
+    height: 1000px;
+    background-position: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 0%;  
+    margin-bottom: 20px;  
+}
+.box{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    left: 199px;
+    top: 380px;
+    background: rgba(94, 201, 224, 0.21);
+    border-radius: 50px;
+}
+.box1{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    left: 40px;
+    top: 20px;
+    background: rgba(94, 201, 224, 0.21);
+    border-radius: 50px;
+}
+.box2{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    left: 600px;
+    top: 680px;
+    background: rgba(148, 18, 250, 0.3);
+    border-radius: 50px;
+}
+
+.box3{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    left: 40px;
+    top: 20px;
+    background: rgba(148, 18, 250, 0.3);
+    border-radius: 50px;
+}
+
+.box4{
+    position: absolute;
+    width: 800px;
+    height: 280px;
+    left: 250px;
+    top: 1000px;
+    background: rgba(255, 85, 187, 0.37);
+    border-radius: 50px;
+}
+.box5{
+    position: absolute;
+    width: 800px;
+    height: 280px;
+    left: 45px;
+    top: 15px;
+    background: rgba(255, 85, 187, 0.37);
+    border-radius: 50px;
+}
+.line{
+position: absolute;
+width: 990px;
+left: 150px;
+top: 660px;
+border: 1px solid #00D1FF;
+}
+
+.line1{
+position: absolute;
+width: 990px;
+left: 150px;
+top: 980px;
+border: 1px solid #00D1FF;
+   
+}
+.footer{
+position: absolute;
+width: 1302px;
+height: 500px;
+top: 1448px;
+
+background: #FF7664;
+}
+.img{
+    top: 50px;
+}
+.joistick{
+    width: 50px;
+    height: 50px;
+    animation: anime-joistick 10s infinite;
+}
+@keyframes anime-joistick{
+    from { left: 0px; }
+    to { right: 200px; }
+}
