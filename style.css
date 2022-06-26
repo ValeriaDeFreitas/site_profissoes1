@@ -1,5 +1,5 @@
 body {
-    background-image: url('img1.png') ;
+    background-image: url('imagens_valeria/img1.png') ;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -13,64 +13,68 @@ body {
     width: 100%;
 }
 
-/*.topo{
-    background: url("img3.jpg");
+.topo{
+    background: url("imagens_valeria/img3.jpg");
     position: relative;
-    margin: 60px 60px 80px 60px;
-    width: 80%;
-    height: 40%;
-}*/
+    width: 994px;
+    height: 261px;
+    top: 20px;
+    left:145px;
+}
 
 .menu{
-    background-color:#2F33A3;;
-    width: 990px;
+    background-color:#2F33A3;
+    width: 995px;
     height: 50px;
     position: relative;
-    margin-left: 150px;
+    margin-left: 145px;
     margin-right: 150px;
-    margin-top: 300px;    
+    top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        
     
 }
 .conteudo{
     background-color: black;
-    width: 990px;
+    width: 995px;
     height: 1000px;
     background-position: center;
-    margin-left: 150px;
+    margin-left: 145px;
     margin-right: 150px;
-    margin-top: 0%;  
-    margin-bottom: 20px;  
+  
 }
 .box{
-    position: absolute;
+    position: relative;
     width: 450px;
     height: 250px;
-    left: 199px;
-    top: 380px;
+    left: 20px;
+    top: 30px;
     background: rgba(94, 201, 224, 0.21);
     border-radius: 50px;
 }
 .box1{
-    position: absolute;
+    position: relative;
     width: 450px;
     height: 250px;
     left: 40px;
-    top: 20px;
+    top: 15px;
     background: rgba(94, 201, 224, 0.21);
     border-radius: 50px;
 }
 .box2{
-    position: absolute;
+    position: relative;
     width: 450px;
     height: 250px;
-    left: 600px;
-    top: 680px;
+    left: 480px;
+    top: 0px;
     background: rgba(148, 18, 250, 0.3);
     border-radius: 50px;
 }
 
 .box3{
-    position: absolute;
+    position: relative;
     width: 450px;
     height: 250px;
     left: 40px;
@@ -80,16 +84,16 @@ body {
 }
 
 .box4{
-    position: absolute;
+    position: relative;
     width: 800px;
     height: 280px;
-    left: 250px;
-    top: 1000px;
+    left: 70px;
+    bottom: 250px;
     background: rgba(255, 85, 187, 0.37);
     border-radius: 50px;
 }
 .box5{
-    position: absolute;
+    position: relative;
     width: 800px;
     height: 280px;
     left: 45px;
@@ -98,38 +102,134 @@ body {
     border-radius: 50px;
 }
 .line{
-position: absolute;
+position: relative;
 width: 990px;
-left: 150px;
-top: 660px;
+top: 80px;
 border: 1px solid #00D1FF;
 }
 
 .line1{
-position: absolute;
+position: relative;
 width: 990px;
-left: 150px;
-top: 980px;
+top: -150px;
 border: 1px solid #00D1FF;
    
 }
 .footer{
-position: absolute;
-width: 1302px;
-height: 500px;
-top: 1448px;
+position: relative;
+width: 1351px;
+height: 600px;
+top: 100px;
 
 background: #FF7664;
 }
+/*
 .img{
     top: 50px;
 }
 .joistick{
+    position: relative;
     width: 50px;
     height: 50px;
-    animation: anime-joistick 10s infinite;
+    animation: anime-joistick 25s infinite; 
 }
+
 @keyframes anime-joistick{
-    from { left: 0px; }
-    to { right: 200px; }
+    0%  { left: 0%; top: 0%; }
+    5% { left: 90%; top: 0%; }
+    10% { left: 0%; top: 50px; }
+    15% { left:90%; top: 50px; }
+    20% {left:0%; top: 100px; }
+    25%{left:90%; top: 100px; }
+    30% { left: 0%; top: 150px; }
+    35% { left: 90%; top: 150px; }
+    40% { left:0%; top: 200px; }
+    45% {left:90%; top: 200px; }
+    100%{left:90%; top: 200px; }
+}*/
+
+#link{
+    position: relative;
+    background:url("imagens_valeria/img4.png");
+    width: 104px;
+    height: 100px;
+    bottom: 5%;
+    left: 540px;
+    
+    animation: link 1s steps(2) infinite;
 }
+@keyframes link{
+    from { background-position: 0px; }
+    to { background-position: 200px;}
+}
+#humano{
+    position: relative;
+    background:url('imagens_valeria/img5_edited2.png');
+    width: 110px;
+    height: 124px;
+    bottom: 35%;
+    left: 350px;
+    animation: humano 1s steps(2) infinite;
+}
+@keyframes humano{
+    from { background-position: 0px; }
+    to { background-position: 200px;}
+}
+
+.carrossel{
+    position: relative;
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    bottom: 15%;
+    border-radius: 50%;
+    left: 5%;
+    bottom: 20%;
+}
+.carrossel .fotos{
+    position: relative;
+    width: 600%;
+    animation: carrossel2 5s infinite ;
+
+}
+.carrossel .fotos img{
+    position: relative;
+    width: 19%;
+    border-radius: 50%;
+}
+@keyframes carrossel2{
+    0% { margin-left: 0%; }
+    25% { margin-left: -120%; }
+    50% { margin-left: -240%; }
+    75% { margin-left: -360%; }
+    100%{ margin-left: -480%;}
+    
+
+}
+#text{
+    color: aliceblue;
+    font-size:smaller ;
+    display: flex;
+    direction: inherit;
+    top:40%;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu a{
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(78, 49, 245);
+    border-radius: 8%;
+    font-size:xx-large;
+    color: white;
+}
+
+
+
+
+
+
+
+
