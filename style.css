@@ -19,11 +19,7 @@ body {
     width: 994px;
     height: 261px;
     top: 20px;
-<<<<<<< HEAD
     left:245px;
-=======
-    left:145px;
->>>>>>> origin/main
 }
 
 .menu{
@@ -31,11 +27,7 @@ body {
     width: 995px;
     height: 50px;
     position: relative;
-<<<<<<< HEAD
     margin-left: 245px;
-=======
-    margin-left: 145px;
->>>>>>> origin/main
     margin-right: 150px;
     top:20px;
     display: flex;
@@ -47,15 +39,9 @@ body {
 .conteudo{
     background-color: black;
     width: 995px;
-<<<<<<< HEAD
     height: 1200px;
     background-position: center;
     margin-left: 245px;
-=======
-    height: 1000px;
-    background-position: center;
-    margin-left: 145px;
->>>>>>> origin/main
     margin-right: 150px;
   
 }
@@ -100,11 +86,7 @@ body {
 .box4{
     position: relative;
     width: 800px;
-<<<<<<< HEAD
     height: 400px;
-=======
-    height: 280px;
->>>>>>> origin/main
     left: 70px;
     bottom: 250px;
     background: rgba(255, 85, 187, 0.37);
@@ -113,11 +95,7 @@ body {
 .box5{
     position: relative;
     width: 800px;
-<<<<<<< HEAD
     height: 400px;
-=======
-    height: 280px;
->>>>>>> origin/main
     left: 45px;
     top: 15px;
     background: rgba(255, 85, 187, 0.37);
@@ -139,16 +117,10 @@ border: 1px solid #00D1FF;
 }
 .footer{
 position: relative;
-<<<<<<< HEAD
 width: 1585px;
 height: 600px;
 top: 240px;
 
-=======
-width: 1351px;
-height: 600px;
-top: 100px;
->>>>>>> origin/main
 
 background: #FF7664;
 }
@@ -218,11 +190,7 @@ background: #FF7664;
 .carrossel .fotos{
     position: relative;
     width: 600%;
-<<<<<<< HEAD
     animation: carrossel2 4s infinite ;
-=======
-    animation: carrossel2 5s infinite ;
->>>>>>> origin/main
 
 }
 .carrossel .fotos img{
@@ -239,11 +207,7 @@ background: #FF7664;
     
 
 }
-<<<<<<< HEAD
 .text{
-=======
-#text{
->>>>>>> origin/main
     color: aliceblue;
     font-size:smaller ;
     display: flex;
@@ -251,7 +215,6 @@ background: #FF7664;
     top:40%;
     
 }
-<<<<<<< HEAD
 .titulo{
     color: rgb(85, 221, 221);
     text-shadow: chartreuse;
@@ -261,8 +224,6 @@ background: #FF7664;
 
    
 }
-=======
->>>>>>> origin/main
 html{
     scroll-behavior: smooth;
 }
