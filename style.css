@@ -208,22 +208,14 @@ background: #FF7664;
 
 }
 .text{
-    color: aliceblue;
+    color: white;
     font-size:smaller ;
     display: flex;
     direction: inherit;
     top:40%;
     
 }
-.titulo{
-    color: rgb(85, 221, 221);
-    text-shadow: chartreuse;
-    font-size:20px ;
-    direction: inherit;
-    
 
-   
-}
 html{
     scroll-behavior: smooth;
 }
