@@ -190,7 +190,7 @@ background: #FF7664;
 .carrossel .fotos{
     position: relative;
     width: 600%;
-    animation: carrossel2 5s infinite ;
+    animation: carrossel2 4s infinite ;
 
 }
 .carrossel .fotos img{
